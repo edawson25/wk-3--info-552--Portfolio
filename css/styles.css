@@ -14,7 +14,7 @@ html {
   --black: #000000;
   --white: #ffffff;
   --MintCream: #F5FFFA ;
-  --lightPurple: #E6E6FA ;
+  --lavender: #E6E6FA ;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -82,7 +82,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
+  background-color: lavender;
 }
 
 /**
