@@ -10,11 +10,6 @@ html {
 /* =============
     Variables
 ============= */
-a {
-  color: #000000;
-  background-color: #FFFF00;
-}
-
 :root {
   --black: #000000;
   --white: #ffffff;
