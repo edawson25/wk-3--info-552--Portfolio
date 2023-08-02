@@ -130,7 +130,7 @@ html {
 
 // Large devices
 @mixin lg {
-    @media (min-width: #{$screen-lg-min}) {
+    @media (min-width: 75{$screen-lg-min}) {
         @content;
     }
 }
@@ -142,7 +142,7 @@ html {
 
 // Extra large devices
 @mixin xl {
-    @media (min-width: #{$screen-xl-min}) {
+    @media (min-width: 100{$screen-xl-min}) {
         @content;
     }
 }
@@ -153,7 +153,7 @@ html {
 
 // Super Extra large devices
 @mixin xxl {
-    @media (min-width: #{$screen-xxl-min}) {
+    @media (min-width: 200{$screen-xxl-min}) {
         @content;
     }
 }
