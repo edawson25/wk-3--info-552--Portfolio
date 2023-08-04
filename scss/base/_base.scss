@@ -1,6 +1,14 @@
 /* =============
     Base
 ============= */
-body {
-    background-color: purple; 
+body{
+    background-color: lavender; 
+}
+.content-grid{
+    display: grid; 16px auto 16px ;
+    grid-template-areas: ". content .";
+}
+.content-grid-item {
+    background-color:red; 
+    grid-area: content;
 }
